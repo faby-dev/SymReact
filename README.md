@@ -29,7 +29,12 @@ $ bin/console d:d:c
 ```bash
 $ bin/console d:s:u -f
 ```
-7. Lanche la Server : 
+7. Lanche la Server php : 
 ```bash
 $ php -S localhost:3000 -t public
+```
+
+7. Lanche la Server js : 
+```bash
+$ yarn encore dev server ou npm run dev
 ```
